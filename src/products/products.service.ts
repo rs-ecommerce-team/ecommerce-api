@@ -8,7 +8,7 @@ import type { Product, ProductsResponse } from './interfaces/product.interface';
 
 @Injectable()
 export class ProductsService {
-  private readonly baseUrl = 'https://dummyjson.com';
+  private readonly baseUrl = 'https://dummyjson.com/products';
 
   constructor(private readonly httpService: HttpService) {}
 
